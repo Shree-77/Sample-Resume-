@@ -4,11 +4,35 @@
 <head>
     <meta charset="utf-8">
     <title>My Resume</title>
-    <link rel="stylesheet" href="../Css/DigitalAssignment.css">
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
         }
+
+        hr {
+            width: 95%;
+            height: 2px;
+            color: black;
+            background-color: black;
+            margin-top: 0%;
+
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: large;
+            color: rgb(7, 102, 210);
+            padding-left: 20px;
+        }
+
+        h3,
+        h4,
+        p,
+        ul {
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
 
         #Border {
             width: 240mm;
@@ -36,17 +60,17 @@
             width: 200px;
         }
 
-
-
         .contact-info {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
         .personal-info {
             margin-top: 10%;
             margin-left: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
         }
 
@@ -64,9 +88,31 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
-        .description {
+        .Description {
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
 
-            text-align: justify;
+        }
+
+        .Education1 {
+            display: flex;
+        }
+
+        .year {
+            float: left;
+            width: 50%;
+            margin-top: 0;
+            margin-bottom: 0;
+
+        }
+
+        .column {
+            flex: 50%;
+            padding-left: 20px;
+            margin-bottom: 0;
+            margin-top: 0;
         }
     </style>
 </head>
@@ -85,9 +131,11 @@
                         <br>
                         <p>Email: shreeviswa7@gmail.com</p>
                         <p>Phone number: 7904813717</p>
-                        <p>LinkedIn: <a
+                        <p>LinkedIn: <a style="text-shadow: none;"
                                 href="https://www.linkedin.com/in/shree-v">https://www.linkedin.com/in/shree-v</a>
                         </p>
+                        <p>GitHub : <a style="text-shadow: none;"
+                                href="https://www.linkedin.com/in/shree-v">https://www.linkedin.com/in/shree-v</a></p>
                     </div>
                     <div class="personal-info">
                         <p>Address: 340, Harshitanilaya bommanahalli Bangalore-560076</p>
@@ -105,8 +153,53 @@
                 problem-solving and
                 analytical abilities with a focus on delivering high-quality solutions. A collaborative team player who
                 is committed to
-                continuous learning and staying up-to-date with industry trends.</p>
+                continuous learning and staying up-to-date with industry trends.I am excited about the opportunity to
+                leverage my skills and
+                make a positive impact as a software developer.</p>
         </div>
+        <br>
+        <h2>Education</h2>
+        <hr>
+        <div class="Education1">
+            <div class="column">
+                <p>2019-2022</p>
+            </div>
+            <div class="column">
+                <h3>Bachelor's in Computer Applications</h3>
+                <p style="font-style: italic;">MGR college , Hosur</p>
+                <p>CGPA : 7.4</p>
+                <div class="Activities">
+                    <h4>Activities</h4>
+                    <ul>
+                        <li>Member , Event Organization </li>
+                        <li>Class Representative , 2nd year</li>
+                    </ul>
+                </div>
+            </div>
+        </div><br>
+        <div class="Education1">
+            <div class="column">
+                <p>2019-2022</p>
+            </div>
+            <div class="column">
+                <h3>Masters of Computer Applications</h3>
+                <p style="font-style: italic;">Vellore institute of Technology , Vellore</p>
+                <p>CGPA : 8.17</p>
+                <div class="Activities">
+                    <h4>Activities</h4>
+                    <ul>
+                        <li>Member ,ISA club </li>
+                        <li>Set Conferences</li>
+                        <li>Hackathon</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+
+
+
     </div>
 </body>
 
